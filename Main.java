@@ -10,7 +10,7 @@ public class Main
         int computer = 0;
         int you = 0;
         System.out.println("***Please have a note***");
-        System.out.println("(0) standas for Rock\n(1) stands for Paper\n(2) stands for Scissor");
+        System.out.println("(0) Stands for Rock\n(1) Stands for Paper\n(2) Stands for Scissor");
         for (int i = 0; i<5; i++)
         {
             int comp = rand.nextInt(3);
